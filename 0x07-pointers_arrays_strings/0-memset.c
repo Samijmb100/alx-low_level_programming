@@ -10,7 +10,9 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int night = 0; /*Night is my variable and was assigned 0*/
+	int night = 0;
+
+	/*Night is my variable and was assigned 0*/
 	while (n > 0) /*as long as n is less than zero*/
 	{
 		s[night] = b; /*Night is assigned to our char*/

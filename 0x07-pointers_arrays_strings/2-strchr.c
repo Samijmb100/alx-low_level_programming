@@ -8,7 +8,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	int night = 0;/*Night was assigned 0*/
+	int night = 0;
+
+	/*Night was assigned 0*/
 	while (s[night] != 0) /*if s is not equal to 0*/
 	{
 		if (s[night] == c)/*if s[night] is  equal or not to c*/

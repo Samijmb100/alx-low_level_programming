@@ -10,7 +10,9 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int night = 0; /*same code as memset*/
+	int night = 0;
+
+	/*same code as memset*/
 	while (n > 0)
 	{
 		dest[night] = src[night];
