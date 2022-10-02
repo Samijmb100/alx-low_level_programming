@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - function
- * @argc: param
- * @argv: param
- * Return: 0
+ * main - fddh
+ * @argc: fsg
+ * @argv: dg
+ * Return: hg
  */
 int main(int argc, char *argv[])
 {
@@ -43,7 +43,7 @@ total -= coins[position] * aux;
 
 position++;
 
-
+}
 printf("%d\n", change);
 return (0);
 }
